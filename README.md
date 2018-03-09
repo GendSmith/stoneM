@@ -3,6 +3,7 @@ x86汇编实现显示个人信息和45度斜射的A
 
 ## 工具：
 1.nasm http://www.nasm.us/pub/nasm/releasebuilds/2.13.03/win64/
+
 2.vmware
 
 ## 基本原理：
@@ -10,7 +11,9 @@ x86汇编实现显示个人信息和45度斜射的A
 
 ## 使用方法：
 先把上面的文件下载下来，然后按照下面的方法就好了
+
 1.安装好nasm和vmware,双击nasm,输入下面的命令，注意改一下路径啊！！
+
 ```
 nasm F:\操作系统\stoneM.asm -o F:\操作系统\stoneM.img
 ```
