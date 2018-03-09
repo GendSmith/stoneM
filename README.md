@@ -9,6 +9,7 @@ x86汇编实现显示个人信息和45度斜射的A
 用nasm将stoneM.asmsh生成stoneM.img，在vmware里面引导stoneM.img,于是完成了实验
 
 ## 使用方法：
+先把上面的文件下载下来，然后按照下面的方法就好了
 1.安装好nasm和vmware,双击nasm,输入下面的命令，注意改一下路径啊！！
 ```
 nasm F:\操作系统\stoneM.asm -o F:\操作系统\stoneM.img
@@ -21,4 +22,4 @@ nasm F:\操作系统\stoneM.asm -o F:\操作系统\stoneM.img
 
 ## 代码解释：
 
-其实用的就是老师给的代码，在前面加了一点东西来显示个人信息，http://img.blog.csdn.net/20170415190502014?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbG9uZ2ludGNoYXI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
+其实用的就是老师给的代码，在前面加了一点东西来显示个人信息，原理ppt上面有讲，也可以参考这个博客 http://blog.csdn.net/longintchar/article/details/70183677
